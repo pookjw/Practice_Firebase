@@ -42,7 +42,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 3;
+    return 5;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -57,6 +57,12 @@
             break;
         case 2:
             cell.textLabel.text = @"Add Data";
+            break;
+        case 3:
+            cell.textLabel.text = @"Delete Data";
+            break;
+        case 4:
+            cell.textLabel.text = @"Read Data";
             break;
         default:
             break;
@@ -76,6 +82,12 @@
             break;
         case 2:
             vc = [[FSAddDataViewController alloc] init];
+            break;
+        case 3:
+            vc = [[FSDeleteDataViewController alloc] init];
+            break;
+        case 4:
+            vc = [[FSReadDataViewController alloc] init];
             break;
         default:
             break;

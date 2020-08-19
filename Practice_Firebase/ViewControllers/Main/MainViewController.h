@@ -9,6 +9,8 @@
 #import "CreateAccountViewController.h"
 #import "SignInViewController.h"
 #import "FSAddDataViewController.h"
+#import "FSDeleteDataViewController.h"
+#import "FSReadDataViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

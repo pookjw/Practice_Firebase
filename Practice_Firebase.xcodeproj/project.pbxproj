@@ -17,6 +17,8 @@
 		F36AD56F24ED1BF30000B40C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F36AD56E24ED1BF30000B40C /* main.m */; };
 		F36AD57624ED1F070000B40C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F36AD57524ED1F070000B40C /* GoogleService-Info.plist */; };
 		F36AD57A24ED20760000B40C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F36AD57924ED20760000B40C /* MainViewController.m */; };
+		F37E943424ED5E5D0073292A /* FSDeleteDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F37E943324ED5E5D0073292A /* FSDeleteDataViewController.m */; };
+		F37E943824ED63D30073292A /* FSReadDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F37E943724ED63D30073292A /* FSReadDataViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,10 @@
 		F36AD57524ED1F070000B40C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F36AD57824ED20760000B40C /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		F36AD57924ED20760000B40C /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F37E943224ED5E5D0073292A /* FSDeleteDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSDeleteDataViewController.h; sourceTree = "<group>"; };
+		F37E943324ED5E5D0073292A /* FSDeleteDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSDeleteDataViewController.m; sourceTree = "<group>"; };
+		F37E943624ED63D30073292A /* FSReadDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSReadDataViewController.h; sourceTree = "<group>"; };
+		F37E943724ED63D30073292A /* FSReadDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSReadDataViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,12 +150,32 @@
 		F36AD57724ED20650000B40C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				F37E943524ED63BF0073292A /* ReadData */,
+				F37E943124ED5E490073292A /* DeleteData */,
 				F32A099E24ED3EF800C0627C /* AddData */,
 				F32A099A24ED3C8100C0627C /* SignIn */,
 				F32A099624ED2DCE00C0627C /* CreateAccount */,
 				F32A099524ED2CE000C0627C /* Main */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F37E943124ED5E490073292A /* DeleteData */ = {
+			isa = PBXGroup;
+			children = (
+				F37E943224ED5E5D0073292A /* FSDeleteDataViewController.h */,
+				F37E943324ED5E5D0073292A /* FSDeleteDataViewController.m */,
+			);
+			path = DeleteData;
+			sourceTree = "<group>";
+		};
+		F37E943524ED63BF0073292A /* ReadData */ = {
+			isa = PBXGroup;
+			children = (
+				F37E943624ED63D30073292A /* FSReadDataViewController.h */,
+				F37E943724ED63D30073292A /* FSReadDataViewController.m */,
+			);
+			path = ReadData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,8 +295,10 @@
 				F32A09A224ED3F0A00C0627C /* FSAddDataViewController.m in Sources */,
 				F36AD55C24ED1BF10000B40C /* AppDelegate.m in Sources */,
 				F32A099924ED2DF600C0627C /* CreateAccountViewController.m in Sources */,
+				F37E943424ED5E5D0073292A /* FSDeleteDataViewController.m in Sources */,
 				F36AD55F24ED1BF10000B40C /* SceneDelegate.m in Sources */,
 				F32A099D24ED3C9000C0627C /* SignInViewController.m in Sources */,
+				F37E943824ED63D30073292A /* FSReadDataViewController.m in Sources */,
 				F36AD57A24ED20760000B40C /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

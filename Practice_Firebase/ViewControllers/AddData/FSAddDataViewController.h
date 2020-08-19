@@ -16,7 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property UITextField *weatherConditionTextField;
 @property UITextField *weatherCelsiusField;
 @property UIButton *submitButton;
-@property UIButton *getButton;
+@property UIButton *getButton1;
+@property UIButton *getButton2;
 @property (nonatomic, readwrite) FIRFirestore *db;
 @end
 
